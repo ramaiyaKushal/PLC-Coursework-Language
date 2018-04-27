@@ -8,10 +8,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/ramaiyaKushal/PLC-Coursework-Language.git"
   },
   "bugs": {
-    "url": ""
+    "url": "https://github.com/ramaiyaKushal/PLC-Coursework-Language/issues"
   },
   "license": "MIT"
 }
