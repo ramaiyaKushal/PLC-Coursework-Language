@@ -17,14 +17,14 @@
         	'name': 'keyword.other.start.from.dbLanguage'
   }
   {
-    'match': '\\b([A-Z]{1}\\((([0-9a-z]+\,*)*)\\))'
+    'match': '\\b([A-Z]+\\((([0-9a-z]+\,*)*)\\))'
     'name': 'entity.other.file.dbLanguage'
     'captures':
         '1':
             'name': 'keyword.other.file.name.dbLanguage'
         '2':
-            'name': 'keyword.other.file.variable.dbLanguage'        
-        
+            'name': 'keyword.other.file.variable.dbLanguage'
+
   }
   {
     'match': '\\b(and)'
@@ -43,8 +43,8 @@
             'name': 'keyword.other.there.varible.dbLanguage'
         '3':
             'name': 'keyword.other.there.dot.dbLanguage'
-        
-        
+
+
   }
   {
   	'match': '\\b([0-9a-z]+)\\s+(\=)\\s+([0-9a-z]+)'
@@ -55,6 +55,6 @@
   		'2':
   			'name': 'keyword.other.equals.equalsign.dbLanguage'
   		'3':
-  			'name': 'keyword.other.equals.variabletwo.dbLanguage'	
+  			'name': 'keyword.other.equals.variabletwo.dbLanguage'
   }
 ]
